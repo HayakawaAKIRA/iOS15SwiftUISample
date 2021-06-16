@@ -19,6 +19,8 @@ enum Destinations: String, Identifiable, CaseIterable, View {
     case asyncImage
     case material
     case sfsymbol
+    case canvas
+    case others
     
     var body: some View {
         Group {
@@ -35,6 +37,10 @@ enum Destinations: String, Identifiable, CaseIterable, View {
                 MaterialSampleView()
             case .sfsymbol:
                 SFSymbolSampleView()
+            case .canvas:
+                CanvasSampleView()
+            case .others:
+                OthersView()
             }
         }
         .onAppear {

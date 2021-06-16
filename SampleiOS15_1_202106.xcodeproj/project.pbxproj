@@ -27,6 +27,11 @@
 		84D510AC26718D4100177A8B /* SampleAsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D510AB26718D4100177A8B /* SampleAsyncImageView.swift */; };
 		84D510AF267227F000177A8B /* MaterialSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D510AE267227F000177A8B /* MaterialSampleView.swift */; };
 		84D510B226722E2D00177A8B /* SFSymbolSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D510B126722E2D00177A8B /* SFSymbolSampleView.swift */; };
+		84F66E0D2679B90C00C34615 /* OthersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F66E0C2679B90C00C34615 /* OthersView.swift */; };
+		84F66E0F2679BA3000C34615 /* SampleActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F66E0E2679BA3000C34615 /* SampleActionSheetView.swift */; };
+		84F66E112679CA2300C34615 /* SampleAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F66E102679CA2300C34615 /* SampleAlertView.swift */; };
+		84F66E132679DF7C00C34615 /* CanvasSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F66E122679DF7C00C34615 /* CanvasSampleView.swift */; };
+		84F66E152679E01F00C34615 /* ParticalVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F66E142679E01F00C34615 /* ParticalVisualizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +100,11 @@
 		84D510AB26718D4100177A8B /* SampleAsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAsyncImageView.swift; sourceTree = "<group>"; };
 		84D510AE267227F000177A8B /* MaterialSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialSampleView.swift; sourceTree = "<group>"; };
 		84D510B126722E2D00177A8B /* SFSymbolSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolSampleView.swift; sourceTree = "<group>"; };
+		84F66E0C2679B90C00C34615 /* OthersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthersView.swift; sourceTree = "<group>"; };
+		84F66E0E2679BA3000C34615 /* SampleActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleActionSheetView.swift; sourceTree = "<group>"; };
+		84F66E102679CA2300C34615 /* SampleAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAlertView.swift; sourceTree = "<group>"; };
+		84F66E122679DF7C00C34615 /* CanvasSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasSampleView.swift; sourceTree = "<group>"; };
+		84F66E142679E01F00C34615 /* ParticalVisualizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticalVisualizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +150,7 @@
 			children = (
 				84D510642670CC0B00177A8B /* SampleiOS15_1_202106App.swift */,
 				84D510662670CC0B00177A8B /* ContentView.swift */,
+				84F66E0B2679B8F300C34615 /* Others */,
 				84D510B3267231D500177A8B /* Canvas */,
 				84D510B026722E2000177A8B /* SFSymbols */,
 				84D510AD267227E500177A8B /* Material */,
@@ -244,8 +255,20 @@
 		84D510B3267231D500177A8B /* Canvas */ = {
 			isa = PBXGroup;
 			children = (
+				84F66E122679DF7C00C34615 /* CanvasSampleView.swift */,
+				84F66E142679E01F00C34615 /* ParticalVisualizer.swift */,
 			);
 			path = Canvas;
+			sourceTree = "<group>";
+		};
+		84F66E0B2679B8F300C34615 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				84F66E0C2679B90C00C34615 /* OthersView.swift */,
+				84F66E0E2679BA3000C34615 /* SampleActionSheetView.swift */,
+				84F66E102679CA2300C34615 /* SampleAlertView.swift */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,10 +405,15 @@
 				84D5109E2670EDDD00177A8B /* AttributedStringView.swift in Sources */,
 				84D510672670CC0B00177A8B /* ContentView.swift in Sources */,
 				84D510652670CC0B00177A8B /* SampleiOS15_1_202106App.swift in Sources */,
+				84F66E112679CA2300C34615 /* SampleAlertView.swift in Sources */,
+				84F66E152679E01F00C34615 /* ParticalVisualizer.swift in Sources */,
 				84D510AF267227F000177A8B /* MaterialSampleView.swift in Sources */,
 				84D510A92670FCDD00177A8B /* ListSearchSampleView.swift in Sources */,
+				84F66E0D2679B90C00C34615 /* OthersView.swift in Sources */,
 				84D510A42670F53C00177A8B /* SampleTimelineView.swift in Sources */,
 				84D510AC26718D4100177A8B /* SampleAsyncImageView.swift in Sources */,
+				84F66E0F2679BA3000C34615 /* SampleActionSheetView.swift in Sources */,
+				84F66E132679DF7C00C34615 /* CanvasSampleView.swift in Sources */,
 				84D510B226722E2D00177A8B /* SFSymbolSampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
